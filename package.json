@@ -1,0 +1,15 @@
+{
+  "name": "venice-ai",
+  "productName": "Venice AI",
+  "version": "1.0.0",
+  "description": "Venice AI Desktop App for macOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . 'Venice AI' --platform=darwin --arch=arm64 --out=dist --overwrite --app-bundle-id=ai.venice.desktop --app-version=1.0.0 --electron-version=33.4.11 --icon=assets/icon.icns"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}
